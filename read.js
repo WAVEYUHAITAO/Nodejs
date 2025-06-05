@@ -1,5 +1,5 @@
 // This code reads a file named 'a.txt' using the Node.js 'fs' module
-var fs = require('node:fs');
+const fs = require('node:fs');
 // console.log(fs);
 fs.readFile('./docs/a.txt', 'utf8', function(err, data) {
     if (err) {

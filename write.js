@@ -1,4 +1,4 @@
-var fs = require('node:fs');
+const fs = require('node:fs');
 fs.writeFile('./docs/output.txt',
     'Hello, this is a test write operation using Node.js.',
     'utf8',
