@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="./m1.js"></script>
+    <script src="./m2.js"></script>
+    <script>
+        //username 会被最后一个模块覆盖
+        // 如果 m1.js 和 m2.js 都定义了 username，m2.js 的值会覆盖 m1.js 的值
+        alert(username)
+    </script>
+</body>
+</html>
